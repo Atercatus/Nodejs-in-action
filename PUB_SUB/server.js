@@ -28,6 +28,9 @@ channel.on('shutdown', function() {
 
 let server = net.createServer(function (client) {
     let id = client.remoteAddress + ':' + client.remotePort;
+
+    channel.emit('join', id, client);
+
     client.on('connect', function() {
         chennel.emit('join', id, client);
     });
