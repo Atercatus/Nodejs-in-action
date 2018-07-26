@@ -1,0 +1,4 @@
+    at bootstrap_node.js:660:3
+PS C:\Users\AterCatus\Desktop\Nodejs in action\Parallel> node .\word_count\
+module.js:559
+    throw err;

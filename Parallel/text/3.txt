@@ -1,0 +1,4 @@
+or: Cannot find module 'C:\Users\AterCatus\Desktop\Nodejs in action\Parallel\word_count'
+    at Function.Module._resolveFilename (module.js:557:15)
+    at Function.Module._load (module.js:484:25)
+    at Function.Module.run
